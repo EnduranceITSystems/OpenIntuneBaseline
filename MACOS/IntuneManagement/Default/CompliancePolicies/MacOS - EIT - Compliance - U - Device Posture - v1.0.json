@@ -1,0 +1,30 @@
+{
+  "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
+  "displayName": "MacOS - EIT - Compliance - U - Device Posture - v1.0",
+  "description": "macOS 15 minimum. Password enforcement is owned by DDM. User-affinity Macs only. Proposed routine grace: 72 hours.",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "osMinimumVersion": "15.0",
+  "systemIntegrityProtectionEnabled": true,
+  "storageRequireEncryption": true,
+  "gatekeeperAllowedAppSource": "macAppStoreAndIdentifiedDevelopers",
+  "firewallEnabled": true,
+  "firewallBlockAllIncoming": false,
+  "firewallEnableStealthMode": true,
+  "passwordRequired": false,
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 72,
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "assignments": []
+}
