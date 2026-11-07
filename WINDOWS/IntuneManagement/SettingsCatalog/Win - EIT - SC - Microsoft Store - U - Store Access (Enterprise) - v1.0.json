@@ -1,0 +1,57 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')",
+  "creationSource": null,
+  "description": "Enterprise/Education MDM control only; preserve automatic Store updates separately.\nDraft source policy; validate import and pilot before assignment.\nEIT policy maintained by Endurance IT. Assign instead of conflicting OIB policy settings; originals remain available.\nEITID:E3EA9D6B-B344-57CB-B519-DF83A090B77B",
+  "name": "Win - EIT - SC - Microsoft Store - U - Store Access (Enterprise) - v1.0",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 1,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "519e9fc2-2319-54e4-be71-ddccaa060c3b",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/assignments",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_1",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_admx_windowsstore_removewindowsstore_1_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('519e9fc2-2319-54e4-be71-ddccaa060c3b')/settings('0')/settingDefinitions"
+    }
+  ],
+  "assignments": []
+}

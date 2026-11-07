@@ -27,3 +27,7 @@ The baseline has been designed for, and tested on, Windows 11 Enterprise , Autop
 * [PolicyManifest.json](PolicyManifest.json) - Policy tracking data (OIBIDs)
 * [IntuneManagement](IntuneManagement) - Policy exports for the IntuneManagement tool
 * [Scripts](Scripts) - Optional supporting scripts
+
+## EIT workstation additions
+
+[EIT workstation policies](Standards/EITWorkstationPolicies.md) are separate, unassigned custom policies beside the original OIB exports. Their names, EITIDs, source lineage and parameters are tracked in `EITPolicyManifest.json` and the EIT source register. Original OIB policies and their manifest remain unchanged.

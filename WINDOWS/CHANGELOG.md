@@ -1,5 +1,10 @@
 # OIB Windows Change Log
 
+## EIT workstation additions — unreleased draft
+
+Added 27 separately named EIT v1.0 policies with distinct EITIDs/export GUIDs. Original OIB policy exports and manifest entries remain unchanged. See [EIT workstation policies](Standards/EITWorkstationPolicies.md) for identities, source references, parameters and required validation.
+
+
 # Windows v4.0.1 - 2026-11-05 - Bug Fix
 ## Changed/Updated 🔄️
 ### Settings Catalog

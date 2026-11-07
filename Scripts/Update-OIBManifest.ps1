@@ -125,7 +125,8 @@ function Get-PlatformPolicies ([string]$PlatformFolder, [string]$PlatformName) {
     $results = foreach ($dir in $KnownPolicyDirs) {
         $full = Join-Path $base $dir
         if (Test-Path $full) {
-            Get-ChildItem $full -Filter '*.json' | ForEach-Object {
+            # EIT policies have a separate identity namespace and EITPolicyManifest.json.
+            Get-ChildItem $full -Filter '*.json' | Where-Object { $_.BaseName -notmatch ' - EIT - ' } | ForEach-Object {
                 [PSCustomObject]@{
                     File       = $_
                     PolicyName = $_.BaseName

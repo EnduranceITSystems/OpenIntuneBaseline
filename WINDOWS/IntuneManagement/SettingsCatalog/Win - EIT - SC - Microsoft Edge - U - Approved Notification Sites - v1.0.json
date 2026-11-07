@@ -1,0 +1,73 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.editLink": "deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')",
+  "@odata.id": "deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/assignments/$ref",
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/assignments",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/assignments",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings/$ref",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings",
+  "settings": [
+    {
+      "@odata.editLink": "deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings('0')",
+      "@odata.id": "deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings('0')",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd')/settings('0')/settingDefinitions",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "%ApprovedNotificationOrigin%"
+                }
+              ],
+              "auditRuleInformation": null,
+              "settingDefinitionId": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_notificationsallowedforurls_notificationsallowedforurlsdesc",
+              "settingInstanceTemplateReference": null
+            }
+          ],
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_notificationsallowedforurls_1"
+        },
+        "settingDefinitionId": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_notificationsallowedforurls",
+        "settingInstanceTemplateReference": null
+      }
+    }
+  ],
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "creationSource": null,
+  "description": "Customer approved business-origin template; render before import and omit when empty.\nDraft source policy; validate import and pilot before assignment.\nEIT policy maintained by Endurance IT. Assign instead of conflicting OIB policy settings; originals remain available.\nEITID:038E4A1D-2C1E-5300-ADA7-96DB5396683B",
+  "id": "3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd",
+  "name": "Win - EIT - SC - Microsoft Edge - U - Approved Notification Sites - v1.0",
+  "priorityMetaData": null,
+  "settingCount": 1,
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null,
+    "templateId": ""
+  },
+  "assignments": []
+}

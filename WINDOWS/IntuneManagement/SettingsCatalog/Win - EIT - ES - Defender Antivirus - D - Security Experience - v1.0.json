@@ -1,0 +1,121 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.editLink": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')",
+  "@odata.id": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/assignments/$ref",
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/assignments",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/assignments",
+  "assignments": [],
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings/$ref",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings",
+  "settings": [
+    {
+      "@odata.editLink": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('0')",
+      "@odata.id": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('0')",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('0')/settingDefinitions",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [],
+          "settingValueTemplateReference": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingValueTemplateReference",
+            "settingValueTemplateId": "6add170a-7868-41d1-82a9-1038d2b3ce2b",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablefamilyui_1"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disablefamilyui",
+        "settingInstanceTemplateReference": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference",
+          "settingInstanceTemplateId": "afcadc31-118d-4a5f-8a70-9f214389aa11"
+        }
+      }
+    },
+    {
+      "@odata.editLink": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('1')",
+      "@odata.id": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('1')",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('1')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('1')/settingDefinitions",
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [],
+          "settingValueTemplateReference": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingValueTemplateReference",
+            "settingValueTemplateId": "aeb811f1-7980-4c19-a6b9-959aa84582c8",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableenhancednotifications_1"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disableenhancednotifications",
+        "settingInstanceTemplateReference": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference",
+          "settingInstanceTemplateId": "90d71ec1-eace-4cf1-a2da-023962fac6c5"
+        }
+      }
+    },
+    {
+      "@odata.editLink": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('2')",
+      "@odata.id": "deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('2')",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('2')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('14165a1f-5e31-5c1f-b685-948910f03894')/settings('2')/settingDefinitions",
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [],
+          "settingValueTemplateReference": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingValueTemplateReference",
+            "settingValueTemplateId": "39f2d84f-4082-478d-bf5c-3317ffb14fd7",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_hidewindowssecuritynotificationareacontrol_0"
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_hidewindowssecuritynotificationareacontrol",
+        "settingInstanceTemplateReference": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference",
+          "settingInstanceTemplateId": "3a9dc836-5f32-4428-a04a-1bad526d3c7b"
+        }
+      }
+    }
+  ],
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm,microsoftSense",
+  "creationSource": null,
+  "description": "Workstation source update: Separate Win - EIT - ES - Defender Antivirus - D - Tamper Protection - v1.0 into its own source policy.\nEIT policy maintained by Endurance IT. Assign instead of conflicting OIB policy settings; originals remain available.\nEITID:E94196A8-04F4-5275-8BB2-69D366730E13",
+  "id": "14165a1f-5e31-5c1f-b685-948910f03894",
+  "name": "Win - EIT - ES - Defender Antivirus - D - Security Experience - v1.0",
+  "priorityMetaData": null,
+  "settingCount": 3,
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "endpointSecurityAntivirus",
+    "templateDisplayName": "Windows Security Experience",
+    "templateDisplayVersion": "Version 1",
+    "templateId": "d948ff9b-99cb-4ee0-8012-1fbc09685377_1"
+  }
+}

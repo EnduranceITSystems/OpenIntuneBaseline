@@ -1,0 +1,77 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')",
+  "creationSource": null,
+  "description": "NOTE: The \"Turn off the Store application\" setting does not work on Windows Pro/Business SKU's:\nhttps://learn.microsoft.com/en-gb/windows/client-management/mdm/policy-csp-admx-windowsstore?WT.mc_id=Portal-fx#removewindowsstore_2\nWorkstation source update: Separate Win - EIT - SC - Microsoft Store - U - Store Access (Enterprise) - v1.0 into its own source policy.\nEIT policy maintained by Endurance IT. Assign instead of conflicting OIB policy settings; originals remain available.\nEITID:91139756-B0B3-5481-8AFF-798DF75175A2",
+  "name": "Win - EIT - SC - Microsoft Store - U - Configuration - v1.0",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 2,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "f61bf414-d74e-5113-a8be-fd3104fb556d",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/assignments",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_admx_taskbar_nopinningstoretotaskbar",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_admx_taskbar_nopinningstoretotaskbar_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('0')/settingDefinitions"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('1')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('1')",
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('1')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f61bf414-d74e-5113-a8be-fd3104fb556d')/settings('1')/settingDefinitions"
+    }
+  ],
+  "assignments": []
+}

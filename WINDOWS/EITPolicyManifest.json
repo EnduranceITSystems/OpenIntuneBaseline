@@ -1,0 +1,763 @@
+{
+  "manifestVersion": "1.0",
+  "namespace": "EIT",
+  "generatedDate": "2026-11-07",
+  "status": "candidate",
+  "baseRevision": "4229858a3bc00d8bfa81809c1d7829eab6313595",
+  "policyOwner": "https://github.com/EnduranceITSystems/OpenIntuneBaseline",
+  "policies": [
+    {
+      "eitId": "534437EC-A7BE-512E-A24F-D9679FBB8A3E",
+      "reference": "eit:534437ec-a7be-512e-a24f-d9679fbb8a3e",
+      "name": "Win - EIT - ES - Defender Antivirus - D - AV Configuration - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - ES - Defender Antivirus - D - AV Configuration - v1.0.json",
+      "platform": "Windows",
+      "policyType": "EndpointSecurity",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "2064828D-FB90-4A27-B4F9-3EE30F5A4DA2",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus - D - AV Configuration - v4.0.json",
+      "exportedObjectId": "dc618d85-19f6-5df2-a8ad-a30466e3b347",
+      "conflictsWith": [
+        "oib:2064828d-fb90-4a27-b4f9-3ee30f5a4da2"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "E94196A8-04F4-5275-8BB2-69D366730E13",
+      "reference": "eit:e94196a8-04f4-5275-8bb2-69d366730e13",
+      "name": "Win - EIT - ES - Defender Antivirus - D - Security Experience - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - ES - Defender Antivirus - D - Security Experience - v1.0.json",
+      "platform": "Windows",
+      "policyType": "EndpointSecurity",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "1BDB3565-26E1-4820-B79F-6AFED73C5A67",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus - D - Security Experience - v4.0.json",
+      "exportedObjectId": "14165a1f-5e31-5c1f-b685-948910f03894",
+      "conflictsWith": [
+        "oib:1bdb3565-26e1-4820-b79f-6afed73c5a67"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "A67BCF50-6BA6-5A22-87F5-7072D7E7DB06",
+      "reference": "eit:a67bcf50-6ba6-5a22-87f5-7072d7e7db06",
+      "name": "Win - EIT - ES - Defender Antivirus - D - Tamper Protection - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - ES - Defender Antivirus - D - Tamper Protection - v1.0.json",
+      "platform": "Windows",
+      "policyType": "EndpointSecurity",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "1BDB3565-26E1-4820-B79F-6AFED73C5A67",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus - D - Security Experience - v4.0.json",
+      "exportedObjectId": "00ded418-2423-5859-912e-703b66331faa",
+      "conflictsWith": [
+        "oib:1bdb3565-26e1-4820-b79f-6afed73c5a67"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "F6C3F6CF-E74C-5674-BDC1-6943A4A27C65",
+      "reference": "eit:f6c3f6cf-e74c-5674-bdc1-6943a4a27c65",
+      "name": "Win - EIT - SC - Device Security - U - Session Lock and Wake Authentication - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Device Security - U - Session Lock and Wake Authentication - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "D4027112-4CF4-4E56-82CD-0FC97D43580F",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - U - Power and Device Lock - v4.0.json",
+      "exportedObjectId": "57eced02-e481-58c9-bea2-67f17927cb8d",
+      "conflictsWith": [
+        "oib:d4027112-4cf4-4e56-82cd-0fc97d43580f"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "09E16F5D-B8D8-5F3C-8F4D-762B7E99C40F",
+      "reference": "eit:09e16f5d-b8d8-5f3c-8f4d-762b7e99c40f",
+      "name": "Win - EIT - SC - Device Security - U - Workstation Power Management - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Device Security - U - Workstation Power Management - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "D4027112-4CF4-4E56-82CD-0FC97D43580F",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - U - Power and Device Lock - v4.0.json",
+      "exportedObjectId": "b5a37eb9-a573-51f2-92d7-69443d57a92c",
+      "conflictsWith": [
+        "oib:d4027112-4cf4-4e56-82cd-0fc97d43580f"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "92129F67-FA4D-5ECD-9F32-6555BB280DF5",
+      "reference": "eit:92129f67-fa4d-5ecd-9f32-6555bb280df5",
+      "name": "Win - EIT - SC - Credential Management - D - Passwordless Experience - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Credential Management - D - Passwordless Experience - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "AC354D32-C6B3-41C2-A2E9-68F89F2EFC98",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Credential Management - D - Passwordless - v3.3.json",
+      "exportedObjectId": "31edb968-824d-5a80-a8b4-9c14c177ddcf",
+      "conflictsWith": [
+        "oib:ac354d32-c6b3-41c2-a2e9-68f89f2efc98"
+      ],
+      "assignmentPhase": "after-hello",
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "phased",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "5B05BA52-6B64-571D-A37A-40E935157E4F",
+      "reference": "eit:5b05ba52-6b64-571d-a37a-40e935157e4f",
+      "name": "Win - EIT - SC - Credential Management - D - Web Sign-In - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Credential Management - D - Web Sign-In - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "AC354D32-C6B3-41C2-A2E9-68F89F2EFC98",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Credential Management - D - Passwordless - v3.3.json",
+      "exportedObjectId": "89e96e3f-4bf1-5778-bdca-c1a2aac2bcf7",
+      "conflictsWith": [
+        "oib:ac354d32-c6b3-41c2-a2e9-68f89f2efc98"
+      ],
+      "assignmentPhase": "optional",
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "optional",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "BFC47284-490C-5137-BAED-E481AACED7BD",
+      "reference": "eit:bfc47284-490c-5137-baed-e481aaced7bd",
+      "name": "Win - EIT - SC - Microsoft Edge - U - Management - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - Management - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "88EEB6C0-A110-4473-BF63-79FB1649CD8B",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Management - v4.0.json",
+      "exportedObjectId": "449e93df-5ada-5306-b706-3d901eb06ab2",
+      "conflictsWith": [
+        "oib:88eeb6c0-a110-4473-bf63-79fb1649cd8b"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "39DA61FB-41A4-5790-882D-7CAA7EE98FC8",
+      "reference": "eit:39da61fb-41a4-5790-882d-7caa7ee98fc8",
+      "name": "Win - EIT - SC - Microsoft Edge - U - Extensions - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - Extensions - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "3B1399B4-FC9A-4523-820F-769416D72543",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Extensions - v3.1.json",
+      "exportedObjectId": "d0e66c65-6b9b-53f1-9e58-bab9fe625112",
+      "conflictsWith": [
+        "oib:3b1399b4-fc9a-4523-820f-769416d72543"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "56A75BAB-B6B5-5BA8-90A9-0246DFE6FDB7",
+      "reference": "eit:56a75bab-b6b5-5ba8-90a9-0246dfe6fdb7",
+      "name": "Win - EIT - SC - Microsoft Edge - U - Approved Extensions - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - Approved Extensions - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "3B1399B4-FC9A-4523-820F-769416D72543",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Extensions - v3.1.json",
+      "exportedObjectId": "f91330a5-ef4d-5b13-a1af-2e506f44389d",
+      "conflictsWith": [
+        "oib:3b1399b4-fc9a-4523-820f-769416d72543"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "parameter-dependent",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "FF59E197-D050-5509-AFFE-763958C19FDC",
+      "reference": "eit:ff59e197-d050-5509-affe-763958c19fdc",
+      "name": "Win - EIT - SC - Microsoft Edge - U - Required Extensions - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - Required Extensions - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "3B1399B4-FC9A-4523-820F-769416D72543",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Extensions - v3.1.json",
+      "exportedObjectId": "1797f1e9-fa2e-5d27-ba77-a99c6fe5ee24",
+      "conflictsWith": [
+        "oib:3b1399b4-fc9a-4523-820f-769416d72543"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "parameter-dependent",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "C45BDE50-7556-5918-8B3B-CFE26346B02F",
+      "reference": "eit:c45bde50-7556-5918-8b3b-cfe26346b02f",
+      "name": "Win - EIT - SC - Microsoft Edge - U - User Experience - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - User Experience - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "FD09768A-A622-4A0D-A944-2D9CFABC4B8E",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - User Experience - v4.0.json",
+      "exportedObjectId": "82ffaa65-961d-589d-8ced-5e611f043fbb",
+      "conflictsWith": [
+        "oib:fd09768a-a622-4a0d-a944-2d9cfabc4b8e"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "46E80D02-8477-53EE-855D-7FF4B78D6B3A",
+      "reference": "eit:46e80d02-8477-53ee-855d-7ff4b78d6b3a",
+      "name": "Win - EIT - SC - Microsoft Edge - U - Website Notifications - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - Website Notifications - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "FD09768A-A622-4A0D-A944-2D9CFABC4B8E",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - User Experience - v4.0.json",
+      "exportedObjectId": "3916d286-27d7-5f90-af04-b005a6e5a824",
+      "conflictsWith": [
+        "oib:fd09768a-a622-4a0d-a944-2d9cfabc4b8e"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "038E4A1D-2C1E-5300-ADA7-96DB5396683B",
+      "reference": "eit:038e4a1d-2c1e-5300-ada7-96db5396683b",
+      "name": "Win - EIT - SC - Microsoft Edge - U - Approved Notification Sites - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Edge - U - Approved Notification Sites - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "FD09768A-A622-4A0D-A944-2D9CFABC4B8E",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - User Experience - v4.0.json",
+      "exportedObjectId": "3d5c6bfa-56b2-5c0d-acb5-ca80bcd011bd",
+      "conflictsWith": [
+        "oib:fd09768a-a622-4a0d-a944-2d9cfabc4b8e"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "parameter-dependent",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "D5DC74CF-DCC4-5249-9DB8-6D9707E6F098",
+      "reference": "eit:d5dc74cf-dcc4-5249-9db8-6d9707e6f098",
+      "name": "Win - EIT - SC - Microsoft OneDrive - D - Configuration - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft OneDrive - D - Configuration - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "6EF9DFEA-74B4-485D-AAD2-237F7E2EBAB2",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2.json",
+      "exportedObjectId": "5f77d682-ff05-513b-bfb2-8c0158986b58",
+      "conflictsWith": [
+        "oib:6ef9dfea-74b4-485d-aad2-237f7e2ebab2"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "BC32307C-7205-5EAB-8D05-24D181EBBE77",
+      "reference": "eit:bc32307c-7205-5eab-8d05-24d181ebbe77",
+      "name": "Win - EIT - SC - Microsoft OneDrive - D - Allowed Sync Tenants - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft OneDrive - D - Allowed Sync Tenants - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "6EF9DFEA-74B4-485D-AAD2-237F7E2EBAB2",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2.json",
+      "exportedObjectId": "07557b70-295f-516d-af56-4d93e6cf0b27",
+      "conflictsWith": [
+        "oib:6ef9dfea-74b4-485d-aad2-237f7e2ebab2"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "82FC6A20-FFBF-57CE-B40A-93308CA7E678",
+      "reference": "eit:82fc6a20-ffbf-57ce-b40a-93308ca7e678",
+      "name": "Win - EIT - SC - Device Security - D - Printing - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Device Security - D - Printing - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "1968C406-B707-4382-AC9E-2FC4EE084EB4",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Printing - v3.7.json",
+      "exportedObjectId": "e78e094c-69db-57e5-8d5b-b722ad9cf58d",
+      "conflictsWith": [
+        "oib:1968c406-b707-4382-ac9e-2fc4ee084eb4"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "453FE1BC-FEB8-59B2-8ADC-D0A9C6D49B2A",
+      "reference": "eit:453fe1bc-feb8-59b2-8adc-d0a9c6d49b2a",
+      "name": "Win - EIT - SC - Microsoft Store - D - Configuration - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Store - D - Configuration - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "D239DFC3-E20A-48C9-A906-09C0AF624CB7",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Store - D - Configuration - v3.8.json",
+      "exportedObjectId": "2aab8657-d048-5698-8f10-fabc07f88868",
+      "conflictsWith": [
+        "oib:d239dfc3-e20a-48c9-a906-09c0af624cb7"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "EDD7CABD-5A61-5536-B6E2-CFA55230B79B",
+      "reference": "eit:edd7cabd-5a61-5536-b6e2-cfa55230b79b",
+      "name": "Win - EIT - SC - Microsoft Store - D - Packaged App Installation (Enterprise) - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Store - D - Packaged App Installation (Enterprise) - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "D239DFC3-E20A-48C9-A906-09C0AF624CB7",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Store - D - Configuration - v3.8.json",
+      "exportedObjectId": "1409db9f-8c4e-5b5e-8199-356bdcdd220b",
+      "conflictsWith": [
+        "oib:d239dfc3-e20a-48c9-a906-09c0af624cb7"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "excluded",
+      "targetEditions": [
+        "enterprise",
+        "education"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "91139756-B0B3-5481-8AFF-798DF75175A2",
+      "reference": "eit:91139756-b0b3-5481-8aff-798df75175a2",
+      "name": "Win - EIT - SC - Microsoft Store - U - Configuration - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Store - U - Configuration - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "2A4518B8-64B5-43C4-AC03-18CE627F1105",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Store - U - Configuration - v3.3.json",
+      "exportedObjectId": "f61bf414-d74e-5113-a8be-fd3104fb556d",
+      "conflictsWith": [
+        "oib:2a4518b8-64b5-43c4-ac03-18ce627f1105"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "E3EA9D6B-B344-57CB-B519-DF83A090B77B",
+      "reference": "eit:e3ea9d6b-b344-57cb-b519-df83a090b77b",
+      "name": "Win - EIT - SC - Microsoft Store - U - Store Access (Enterprise) - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Microsoft Store - U - Store Access (Enterprise) - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "User",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "2A4518B8-64B5-43C4-AC03-18CE627F1105",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Store - U - Configuration - v3.3.json",
+      "exportedObjectId": "519e9fc2-2319-54e4-be71-ddccaa060c3b",
+      "conflictsWith": [
+        "oib:2a4518b8-64b5-43c4-ac03-18ce627f1105"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "excluded",
+      "targetEditions": [
+        "enterprise",
+        "education"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "04DB5F11-023F-5271-9FF8-4208FAA2CCEC",
+      "reference": "eit:04db5f11-023f-5271-9ff8-4208faa2ccec",
+      "name": "Win - EIT - ES - Defender Antivirus Updates - D - Test - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - ES - Defender Antivirus Updates - D - Test - v1.0.json",
+      "platform": "Windows",
+      "policyType": "EndpointSecurity",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "C1B1A707-F50C-461A-A811-E8D47FED076C",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus Updates - Ring 1 - Pilot - v3.4.json",
+      "exportedObjectId": "051d0ab0-5eee-5cbc-948a-8429e9fa4a4d",
+      "conflictsWith": [
+        "oib:c1b1a707-f50c-461a-a811-e8d47fed076c"
+      ],
+      "assignmentPhase": "test",
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "phased",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "01EF94AA-4306-570F-AFEE-73769B140580",
+      "reference": "eit:01ef94aa-4306-570f-afee-73769b140580",
+      "name": "Win - EIT - ES - Defender Antivirus Updates - D - Production - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - ES - Defender Antivirus Updates - D - Production - v1.0.json",
+      "platform": "Windows",
+      "policyType": "EndpointSecurity",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "F597C79E-DBDB-4419-AA69-3617716658E4",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus Updates - Ring 3 - Production - v3.4.json",
+      "exportedObjectId": "8d35dcbc-2944-5c5c-85bc-1428f1c63503",
+      "conflictsWith": [
+        "oib:f597c79e-dbdb-4419-aa69-3617716658e4"
+      ],
+      "assignmentPhase": "production",
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "phased",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "3C2DDAA8-B2DA-54FE-9A59-F2E9745D745A",
+      "reference": "eit:3c2ddaa8-b2da-54fe-9a59-f2e9745d745a",
+      "name": "Win - EIT - SC - Network Security - D - NTLM Enforcement - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Network Security - D - NTLM Enforcement - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "78A64AF6-87DC-4A95-94F8-E967508ADEE7",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Network Security - D - Disable NTLM - v3.8.json",
+      "exportedObjectId": "c2cc9b1c-19db-54b0-86ba-d05a66fb8ba2",
+      "conflictsWith": [
+        "oib:78a64af6-87dc-4a95-94f8-e967508adee7"
+      ],
+      "assignmentPhase": "after-review",
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "phased",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "ABD3A60A-0C60-5329-9109-BF1EA19C7E62",
+      "reference": "eit:abd3a60a-0c60-5329-9109-bf1ea19c7e62",
+      "name": "Win - EIT - SC - Network Security - D - NTLM Audit - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Network Security - D - NTLM Audit - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "78A64AF6-87DC-4A95-94F8-E967508ADEE7",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Network Security - D - Disable NTLM - v3.8.json",
+      "exportedObjectId": "0bf6a038-ab59-53f5-9440-7bcb6499208b",
+      "conflictsWith": [
+        "oib:78a64af6-87dc-4a95-94f8-e967508adee7"
+      ],
+      "assignmentPhase": "onboarding-audit",
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "phased",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "F53CAEC5-B037-5940-8046-0B19203E178E",
+      "reference": "eit:f53caec5-b037-5940-8046-0b19203e178e",
+      "name": "Win - EIT - SC - Device Security - D - Remote Desktop Host Access - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Device Security - D - Remote Desktop Host Access - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "A61CE19F-4615-42AB-ABE7-BDCD76D2B203",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Remote Desktop Services and RPC - v3.0.json",
+      "exportedObjectId": "7ac28751-74af-505d-912d-bd04f4ee013c",
+      "conflictsWith": [],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": false,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    },
+    {
+      "eitId": "52935B3B-6995-57AB-B9EC-39D79F817A5B",
+      "reference": "eit:52935b3b-6995-57ab-b9ec-39d79f817a5b",
+      "name": "Win - EIT - SC - Device Security - D - Workstation File Associations - v1.0",
+      "path": "WINDOWS/IntuneManagement/SettingsCatalog/Win - EIT - SC - Device Security - D - Workstation File Associations - v1.0.json",
+      "platform": "Windows",
+      "policyType": "SettingsCatalog",
+      "scope": "Device",
+      "version": "1.0",
+      "status": "candidate",
+      "sourceOibId": "887CEFEC-6882-49E0-A237-91F8D02B2CAB",
+      "sourcePath": "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Script File Associations - v4.0.json",
+      "exportedObjectId": "dc10328b-ae4f-583f-a52d-7d55b840b8ee",
+      "conflictsWith": [
+        "oib:887cefec-6882-49e0-a237-91f8d02b2cab"
+      ],
+      "assignmentPhase": null,
+      "selectionReplacesOibPolicy": true,
+      "standardSelection": "required",
+      "targetEditions": [
+        "pro",
+        "business"
+      ],
+      "supportStatus": "validation-required"
+    }
+  ],
+  "baselinePolicySha256": {
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Defender - U - Real-Time Protection - v4.0.json": "50da671d0a761838651b696f385a6f26bf1e83dfda0b11cc0bfc98f6e95b275b",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Defender - U - Security Intelligence - v4.0.json": "bcd0008a7b8b83dcfeafcf5444906c6e512f2c0e093181cc80f0a1f74f313401",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Health - U - BitLocker - v4.0.json": "87bd3a33b2f2bfc8563fa8b278da5643da46d12e74c56252201a65272a1e6a5c",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Health - U - Code Integrity - v4.0.json": "39bb91733d6cdbc68ca2bf35697ee45b1837e5979252d689a70bbe398ee045b8",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Health - U - SecureBoot - v4.0.json": "8d24d9f55d3672668f49a4e475f20613d67ddbbe16dbf0b89258489b5482c1c1",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Security - U - Antispyware - v4.0.json": "0adc66e800774fb9141ef2f89b44d4dc75e3da7dd59d16cbff338fc2c65c9a35",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Security - U - Antivirus - v4.0.json": "06de371862d2feed23f002f6fc6afcb1314c4c82a0e59d69772d2f46300e12f7",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Security - U - Firewall - v4.0.json": "63bc2cd5053de2771de41c934702b36d9754e65159e1e1e7dc12201728dd386a",
+    "WINDOWS/IntuneManagement/CompliancePolicies/Win - OIB - CP - Device Security - U - TPM - v4.0.json": "da8146f6d593db3f7e34ec95587f1eb7c9e554c085bd92d000d0573d716ea519",
+    "WINDOWS/IntuneManagement/DeviceConfiguration/Win - OIB - TP - Health Monitoring - D - Endpoint Analytics - v3.4.json": "a7a9e698989d726a433feb6436319e45b269cb25d84c5e5d4aa4fa14ca82dfde",
+    "WINDOWS/IntuneManagement/DriverUpdateProfiles/Win - OIB - WUfB Drivers - Ring 1 - Pilot - v3.0.json": "49f880d59cc86cd8bc8040bc89b5946aed75183b25db1fbcb5c91230f120dbdc",
+    "WINDOWS/IntuneManagement/DriverUpdateProfiles/Win - OIB - WUfB Drivers - Ring 2 - UAT - v3.0.json": "de4f1d0ef83e7ac878db2b02cc85f98d79a8307d6e48482b57eabfb4e57ba9c7",
+    "WINDOWS/IntuneManagement/DriverUpdateProfiles/Win - OIB - WUfB Drivers - Ring 3 - Production - v3.0.json": "442a3b389d6861faa4565505ca5a9568fb5f302c87227e5bed69a8055c5b6510",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode) - v3.1.json": "f389f25cbc678e71adf9134481c6fba660a3517dab94fb99f77fe73d324069aa",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (L2) - v3.7.json": "25de6b493da1f82db134df60768f9fa5adc3d16afc7851b44beadee442557c6a",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus - D - AV Configuration - v4.0.json": "d3c54b15c3d648874dece475849193db3b030d89b3074c6f095df3194b01c07d",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus - D - Security Experience - v4.0.json": "b2a2e2d5db771be815e418a3c56651889fdcb0106346040e6b06f45e749e087c",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus Updates - Ring 1 - Pilot - v3.4.json": "fd2c9d99c90c14e734141d0b5a43205f57e6892a9b64388b0c11efd2a95bc923",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus Updates - Ring 2 - UAT - v3.4.json": "25b0e6be26237152be52f78f665fe5ad347d3485a4a12900fa65a54c3888ef4a",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Defender Antivirus Updates - Ring 3 - Production - v3.4.json": "8ac4df8a49bac8c37044cce9d6dca4d325471cd1c2ec0b375fc1f5d0c1d73f09",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.7.json": "01a8c24c7d27c2201c6a9fe0201c356ed5afd3366e6ae3e0e57ac8a4b511c48f",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Encryption - U - Personal Data Encryption - v3.4.json": "0c270cdca1a4ccdaf767a90ed8b4de43275d2f7bae13ff12004a357e900c8ffd",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Local Group Membership - D - Local Administrators - v3.7.json": "1fa1f5a2fabc07b11ccc9ebe7416e31250141c58e8372d86d2522dffba17e076",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Windows Firewall - D - Firewall Configuration - v3.1.json": "25da87ded0844aec776d1e6350f67cc9e402517ea22cbcf2bd1aa0b90837201f",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Windows Firewall - D - Security Rules - v3.8.json": "696fa1d5e46ab346632bf40737a504329183ffbf2c5b871f5655f35c93b497c6",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Windows Hello for Business - D - WHfB Configuration - v3.2.json": "b0a261a703337607ddecfefdea0a3ab2f98e0b07966e3181c395a351a6e07ec8",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - ES - Windows LAPS - D - LAPS Configuration - v4.0.json": "41d96b403b88585fc21618691e32e4b5acc0dd98f71f4a07cbdd6738649f721a",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Credential Management - D - Passwordless - v3.3.json": "f6693fa90d06568c54cca0dd3b82305b756a54df7f3879f363d0af9deb9ff0fb",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Defender Antivirus - D - Additional Configuration - v4.0.json": "1fe602ae68238e915c4120293b3c8e8fef5d354cd53ade64edff1f61db1dfd54",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Administrator Protection - v4.0.1.json": "694325b4f788be0e6b4c2e6d04866e00f647ff31b34da5d42b75aa6269936181",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Audit and Event Logging - v4.0.json": "74fc02c503cc486918ea8b7894afcf7bac01acd6026999e7b54904b0a5d71c84",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Config Refresh - v3.2.json": "b6b93fc0bb83b12ac7cff2189783a8c30b9ee223fbeed72796cd947972f23dc6",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Enhanced Phishing Protection - v3.0.json": "2578bfb66a9675baa99ddc969551199bcfcac50931c63625f9ceb80977df4c24",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Local Security Policies - v4.0.json": "f62d798c96c45fead16b71e2a31e9b7de7eda2a0f945e7bb07ba964b7868322c",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Location and Privacy - v3.2.json": "61d95525fa05bbf3feef917651cec3e6a73dcc60c627c12b03de7b4bd403a29d",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Login and Lock Screen - v3.8.json": "f1e601353db245b39518af24f311efa6f4862a745ea80e43eb71d689571f6636",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Printing - v3.7.json": "44093c748807c7578a5789f269080dc114a14289f94e3d9ea2f4d59b674137c3",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Remote Desktop Services and RPC - v3.0.json": "0d1e947ad8e8db07d82a631ef10ff3c44bd6da190e28e0ce533655c036cb3fd4",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Script File Associations - v4.0.json": "c18d2af1ddd3d2460a59d65a839326f6f8eb721d1743ae201d90702a2c2869da",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Security Hardening - v4.0.json": "03cece9d291b50d663c496d0fdf0e95a926b6ac9d88fea7b1c61f9cc9c915e85",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Timezone - v3.4.json": "3f69be7b231b45038c942a31c360a8365f5fd432738e6213442a980245156980",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - User Rights - v3.7.json": "d3371bfcbd7214af15511f9f0149e5e72bc015c892db09b1e421a6211c299237",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Windows Package Manager - v3.5.json": "31aed93356b494b5dfcb966a1408839555e762b562f1d5ae3a58e22f8de35032",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - D - Windows Subsystem for Linux - v3.2.json": "8ffc1b1ba7efc0affc75eb1b540ad57450bbdaada450a8488c581db62055c543",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - U - Device Guard, Credential Guard and HVCI - v3.7.json": "1507c43d0ae9d0e8a8d16c2adff2b924e5bf13a220338bbbdadaa3f641be3994",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - U - Power and Device Lock - v4.0.json": "5ce85b38955846df74548fcddbe4b17ff6c24fa4c2332a322b95846d9f945c41",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - U - Windows Sandbox - v3.4.json": "eb1f4f966de191a1689e667aad46f9d78472f95c0d19719823c04d12efc7fdec",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Device Security - U - Windows Spotlight and Org Messages - v3.0.json": "622bfc74ced7ddefa52748d3721bc9251a97aaa2e29a1242b73d85a5cb484984",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Internet Explorer (Legacy) - D - Security - v4.0.json": "04f5cd3e2a8bcae59f72ba0b007d9878ba199dfd6a37732bc95270a4a235d587",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Accounts - D - Configuration - v3.2.json": "2d8e0338dc1db160d2d0aef3f50b6a0f7fe8febf6692e83e1a43e53b046c0f0d",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - D - Security - v4.0.json": "b3dfface765e44459ab8a414629cc7c66274b3f94c365b6859a972367bdb48dc",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - D - Updates - v4.0.json": "1c4ba6776ae429ef24a96c4feb17333ee2f70e34040e4b67e4f3ab24d02f513a",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Extensions - v3.1.json": "a7c15d04b0247ce3c3293659ad888687256adf3eb197f852fc4b8fe300cb4177",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Management - v4.0.json": "4d4c062db2b3d11ed37efb7e6249409942c0a12c98b1566f9576536a9bfc7984",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Password Management - v3.0.json": "bbe0e3dad8b8aab95e24b721fce515cfdb3e35bd878433dbe2a0a56bee96d33a",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v4.0.json": "255577e212540ca380c6e1a4d2fc744c64a56362f61429e34959781e2aef3be2",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Edge - U - User Experience - v4.0.json": "f90cea962905f0039cc24265657832441c9d0906fccaec579623a8e8daed82e6",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Office - D - Security - v3.6.json": "a72c9fd1bebc8248c8a906c9f55cdbba6142efb9328fc5b3563a56f801c12eaa",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Office - D - Updates - v3.0.json": "a2177ae61b52007095d27cfe963d0c1ed7f48c8f6148439427b33bf787f817d4",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Office - U - Config and Experience - v3.6.json": "9966055df5b98d14020151a70f5269d6adc014d5c727a1e076336ed05ff489ef",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Office - U - Security - v4.0.json": "105648cf2d5d33e8c716a1485aeea18a55d5a0f7abfb0ef014582354706c10ed",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2.json": "b52cb379a892c2669063e3c50276dec0662ce1a21c8db323e130a83f06c3ca36",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft OneDrive - U - Configuration - v3.8.json": "f96a70b1343a2ed216b8c82e42b6ed4d1cca94480d7137f95ae83bc1589adef4",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Store - D - Configuration - v3.8.json": "c97a4040525f3584431a731782a3735bf17533901c2dd244ce19426893a413b4",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Microsoft Store - U - Configuration - v3.3.json": "b0ddffcf62b70bb871723051d97d4a90ef7bed209e02d837071ffcf2dbfeef89",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Network Security - D - Disable NTLM - v3.8.json": "94ea10cbbe12bdc29cf5ee0e9fe73a6936416f702b17ee154d8d483ee9967646",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows Apps - D - In-Box App Removal - v4.0.json": "71c95c540cf4a2f5a58c0d30ddc62ca691a238c6bb93aeebdb85882bd7acc7d0",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows Hello for Business - D - Cloud Kerberos Trust - v3.5.json": "6ef3fd27d2b8b519f4e14727ee57691a57fc29961f1dac4279e0080ddfe45e5e",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows Update for Business - D - Delivery Optimisation - v3.0.json": "abb66aa1747840a51dffd7f69debe89fba5c67ff2b89ebdb527a54a109f2c913",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows Update for Business - D - Reports and Telemetry - v3.0.json": "da73db8ae01de84e02d89a80131c8f4611d88f8f66c0c2b53b4b5f0850ab0c84",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows User Experience - D - Automatic Restart Sign-On - v3.8.json": "625847f0f7c284558aa3ffcffdc7e25fb9d76896d2178ce5191a011a257bb6cf",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows User Experience - D - Feature Configuration - v4.0.json": "72cfe75c43d129feb5db6ad79a5efecea75478580b9324a239d9db8d672f3b6a",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows User Experience - D - Settings Sync - v3.7.json": "fd5805c608f38972387d04706f4037d8431ac7f39813abfae9b1c174698d0a24",
+    "WINDOWS/IntuneManagement/SettingsCatalog/Win - OIB - SC - Windows User Experience - U - Copilot - v3.8.json": "6057a9c35295e8cf48b760f1e3fe80ef3851f7e1f17db1488d0758352519091e",
+    "WINDOWS/IntuneManagement/UpdatePolicies/Win - OIB - WUfB - Ring 1 - Pilot - v3.0.json": "a2919274a170ff005dad033f7e414fff9d8e5230184ca5ef0adfe25b668febf4",
+    "WINDOWS/IntuneManagement/UpdatePolicies/Win - OIB - WUfB - Ring 2 - UAT - v3.0.json": "e85923769e57dedfba9f92cb3498c8c2740269d790761d5879689a96485c84a3",
+    "WINDOWS/IntuneManagement/UpdatePolicies/Win - OIB - WUfB - Ring 3 - Production - v3.0.json": "b7b64fe7d86766222f458f3b4218e936d3f404ed089041bc651379543d89bec3"
+  },
+  "oibManifestSha256": "1a5b0dc158f9ae7ead38f3fa4052d16433430984252d3a30d7d7a3a552c7dbe4"
+}

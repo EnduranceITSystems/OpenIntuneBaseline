@@ -1,0 +1,56 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.editLink": "deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')",
+  "@odata.id": "deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/assignments/$ref",
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/assignments",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/assignments",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings/$ref",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings",
+  "settings": [
+    {
+      "@odata.editLink": "deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings('0')",
+      "@odata.id": "deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings('0')",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('dc10328b-ae4f-583f-a52d-7d55b840b8ee')/settings('0')/settingDefinitions",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+        "auditRuleInformation": null,
+        "settingDefinitionId": "device_vendor_msft_policy_config_applicationdefaults_defaultassociationsconfiguration",
+        "settingInstanceTemplateReference": null,
+        "simpleSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPERlZmF1bHRBc3NvY2lhdGlvbnM+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5iYXQiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5jbWQiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5odGEiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5qcyIgUHJvZ0lkPSJBcHBsaWNhdGlvbnNcbm90ZXBhZC5leGUiIEFwcGxpY2F0aW9uTmFtZT0iTm90ZXBhZCIgLz4KICA8QXNzb2NpYXRpb24gSWRlbnRpZmllcj0iLmpzZSIgUHJvZ0lkPSJBcHBsaWNhdGlvbnNcbm90ZXBhZC5leGUiIEFwcGxpY2F0aW9uTmFtZT0iTm90ZXBhZCIgLz4KICA8QXNzb2NpYXRpb24gSWRlbnRpZmllcj0iLnBzMSIgUHJvZ0lkPSJBcHBsaWNhdGlvbnNcbm90ZXBhZC5leGUiIEFwcGxpY2F0aW9uTmFtZT0iTm90ZXBhZCIgLz4KICA8QXNzb2NpYXRpb24gSWRlbnRpZmllcj0iLnBzbTEiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5zY3QiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii53c2YiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii53c2giIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii52YmUiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii52YnMiIFByb2dJZD0iQXBwbGljYXRpb25zXG5vdGVwYWQuZXhlIiBBcHBsaWNhdGlvbk5hbWU9Ik5vdGVwYWQiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5odG0iIFByb2dJZD0iTVNFZGdlSFRNIiBBcHBsaWNhdGlvbk5hbWU9Ik1pY3Jvc29mdCBFZGdlIiAvPgogIDxBc3NvY2lhdGlvbiBJZGVudGlmaWVyPSIuaHRtbCIgUHJvZ0lkPSJNU0VkZ2VIVE0iIEFwcGxpY2F0aW9uTmFtZT0iTWljcm9zb2Z0IEVkZ2UiIC8+CiAgPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Imh0dHAiIFByb2dJZD0iTVNFZGdlSFRNIiBBcHBsaWNhdGlvbk5hbWU9Ik1pY3Jvc29mdCBFZGdlIiAvPgogIDxBc3NvY2lhdGlvbiBJZGVudGlmaWVyPSJodHRwcyIgUHJvZ0lkPSJNU0VkZ2VIVE0iIEFwcGxpY2F0aW9uTmFtZT0iTWljcm9zb2Z0IEVkZ2UiIC8+CjwvRGVmYXVsdEFzc29jaWF0aW9ucz4="
+        }
+      }
+    }
+  ],
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "creationSource": null,
+  "description": "WARNING: Deploying will break running any PowerShell scripts from Intune in the User context. Amend policy if this functionality is required.\nWorkstation source update: One coherent payload for approved script-to-Notepad mappings and Edge HTML/HTTP defaults. Package/executable/legacy shell-object mappings are held; PDF default is not changed.\nEIT policy maintained by Endurance IT. Assign instead of conflicting OIB policy settings; originals remain available.\nEITID:52935B3B-6995-57AB-B9EC-39D79F817A5B",
+  "id": "dc10328b-ae4f-583f-a52d-7d55b840b8ee",
+  "name": "Win - EIT - SC - Device Security - D - Workstation File Associations - v1.0",
+  "priorityMetaData": null,
+  "settingCount": 1,
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null,
+    "templateId": ""
+  },
+  "assignments": []
+}

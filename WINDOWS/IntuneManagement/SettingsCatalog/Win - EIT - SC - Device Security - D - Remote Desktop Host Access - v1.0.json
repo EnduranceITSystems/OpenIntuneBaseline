@@ -1,0 +1,52 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')",
+  "creationSource": null,
+  "description": "Disable native RDP host access; retain the existing separate RDP/RPC hardening policy. Validate Settings Catalog definition at import and support-tool behavior.\nDraft source policy; validate import and pilot before assignment.\nEIT policy maintained by Endurance IT. Assign instead of conflicting OIB policy settings; originals remain available.\nEITID:F53CAEC5-B037-5940-8046-0B19203E178E",
+  "name": "Win - EIT - SC - Device Security - D - Remote Desktop Host Access - v1.0",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 1,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "7ac28751-74af-505d-912d-bd04f4ee013c",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')/assignments",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('7ac28751-74af-505d-912d-bd04f4ee013c')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_allowuserstoconnectremotely",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_remotedesktopservices_allowuserstoconnectremotely_0",
+          "children": []
+        }
+      }
+    }
+  ],
+  "assignments": []
+}
