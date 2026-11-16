@@ -6,7 +6,7 @@
   "roleScopeTagIds": [
     "0"
   ],
-  "settingCount": 1,
+  "settingCount": 12,
   "templateReference": {
     "templateId": "",
     "templateFamily": "none",
@@ -25,41 +25,11 @@
             "children": [
               {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowactivitycontinuation",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowactivitycontinuation_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
                 "settingDefinitionId": "com.apple.applicationaccess_allowaddinggamecenterfriends",
                 "settingInstanceTemplateReference": null,
                 "choiceSettingValue": {
                   "settingValueTemplateReference": null,
                   "value": "com.apple.applicationaccess_allowaddinggamecenterfriends_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowairplayincomingrequests",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowairplayincomingrequests_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowairdrop",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowairdrop_false",
                   "children": []
                 }
               },
@@ -85,131 +55,11 @@
               },
               {
                 "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowautounlock",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowautounlock_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudaddressbook",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudaddressbook_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudbookmarks",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudbookmarks_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudcalendar",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudcalendar_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowclouddesktopanddocuments",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowclouddesktopanddocuments_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowclouddocumentsync",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowclouddocumentsync_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudfreeform",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudfreeform_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudkeychainsync",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudkeychainsync_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudmail",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudmail_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudnotes",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudnotes_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudphotolibrary",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudphotolibrary_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
                 "settingDefinitionId": "com.apple.applicationaccess_allowcloudprivaterelay",
                 "settingInstanceTemplateReference": null,
                 "choiceSettingValue": {
                   "settingValueTemplateReference": null,
                   "value": "com.apple.applicationaccess_allowcloudprivaterelay_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowcloudreminders",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowcloudreminders_false",
                   "children": []
                 }
               },
@@ -290,36 +140,6 @@
                 "choiceSettingValue": {
                   "settingValueTemplateReference": null,
                   "value": "com.apple.applicationaccess_allowmultiplayergaming_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowpasswordproximityrequests",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowpasswordproximityrequests_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_allowpasswordsharing",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_allowpasswordsharing_false",
-                  "children": []
-                }
-              },
-              {
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                "settingDefinitionId": "com.apple.applicationaccess_safariallowautofill",
-                "settingInstanceTemplateReference": null,
-                "choiceSettingValue": {
-                  "settingValueTemplateReference": null,
-                  "value": "com.apple.applicationaccess_safariallowautofill_false",
                   "children": []
                 }
               }
